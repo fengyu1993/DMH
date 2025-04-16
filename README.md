@@ -1,6 +1,6 @@
 # Damped Modified Halley:  a kinematic identification and inverse kinematics library for MATLAB using the POE Formula
 
-Fifth-Order Iterative Method for Kinematic Identification and Inverse Kinematics of Serial Robots Using the POE Formula
+A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots
 
 DMH_Method_KI_IK.m: DMH method for kinematic identification and inverse kinematics.
 
