@@ -190,3 +190,11 @@ function invT = TransInv(T)
     [R, p] = TransToRp(T);
     invT = [R', -R' * p; 0, 0, 0, 1];
 end
+
+function so3mat = VecToso3(omg)
+    so3mat = [0, -omg(3), omg(2); omg(3), 0, -omg(1); -omg(2), omg(1), 0];
+end
+
+function omg = so3ToVec(so3mat)
+    omg = [so3mat(3,2); so3mat(1,3); so3mat(2,1)];
+end
