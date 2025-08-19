@@ -32,7 +32,6 @@ epsilon = 1e-10; tau_max = 1; sigma = 1e-6;
 %% Plot
 error_DMH_1 = norm(S_DMH_1 - S_d);
 fprintf("DMH error of the first iteration：%d\n", error_DMH_1);
-plot(0:length(error_1)-1, error_1);
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function T = ForwardKinematic(S, Gamma, delta_q, q_bar)
     n = length(q_bar);
