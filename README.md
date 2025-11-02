@@ -8,43 +8,20 @@ It is a **fifth-order POE-based** method, **published in IEEE-TRO (conditionally
 
 ## Motivation
 
+* Illustrated the damped modified Halley (DMH) method (fifth-order convergence) for KI and IK
 * Disseminate published academic results
 
+The MATLAB codebase for the DMH method provides a unified function, named *DMH_Method_KI_IK*, that consistently solves both KI and IK problems, following the procedure described in *Algorithm 1* of the paper.
 
 
-## 本项目功能
 
-### 本项目提供
 
-- 高效、鲁棒的广义 **逆运动学**（IK）求解（6 自由度工具位姿约束：位置 + 朝向）。
-- **正向运动学**（FK）计算，返回末端或任意关节的位姿。
-- **速度运动学/雅可比矩阵**（Jacobian）计算，用于速度映射与敏感度分析。
-- 支持固定 DOF 模板与动态 DOF 两种构建方式，便于在实时/嵌入式场景下避免动态分配。
+C++ and with some examples also implemented in MATLAB. Qt is recommended to use with the C++ examples as the project organization files are in ".pro" Qt format, Qt's plotting capabilities are used to visualize models, and the event system is used to demonstrate interactive simulation.
 
-### 不包含/暂未提供
 
-- 零空间优化（针对冗余机械臂的二次目标优化）。
-- 降维/部分约束 IK（例如仅位置或仅姿态等子任务）。
-- 可行性/安全性检查（关节/速度/加速度/工作空间约束）。
-- 碰撞检测、轨迹规划与控制功能（超出运动学范畴）。
 
-### 适用范围与前提
 
-- 串联机械臂（单链，不含分支/闭环）。
-- 采用 Denavit–Hartenberg（DH）建模（Spong 记号与编号约定）。
-- 支持旋转/移动关节混合，支持自定义基座与工具坐标系。
-- 建议统一单位（米、弧度）以避免数值缩放问题。
-
-## 为何使用通用逆运动学
-
-如果你的机器人具备解析解（封闭解），优先使用解析解；但在以下情况，通用 IK 更为合适：
-
-- 无法或不便推导解析解；
-- 机器人经过标定，DH 参数扰动导致解析解失效；
-- 结构复杂、无球腕等，位置与姿态难以解耦；
-- 需要后续扩展零空间优化等能力（本仓库计划支持）。
-
-## 工作原理
+## How it works
 
 本项目基于已发表于 TRO 的算法实现，以 DH 建模为基础，利用数值迭代高效求解 IK。实现细节与理论推导请参考论文与 `docs/` 中的材料。
 
