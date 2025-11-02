@@ -2,7 +2,7 @@
 
 **DMH** is a fast and robust kinematics library for serial manipulators. 
 It aims to establish a unified framework for kinematic identification (KI) and inverse kinematics (IK) and to develop an efficient, robust, and accurate solution method for both problems.
-It is a fifth-order POE-based method that enhances the identification accuracy for solving KI problems and improves the convergence rate and robustness for solving IK problems.
+It is a **fifth-order POE-based** method that enhances the identification accuracy for solving KI problems and improves the convergence rate and robustness for solving IK problems.
 
 ## 算法简介
 
