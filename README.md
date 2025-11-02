@@ -12,11 +12,8 @@ It is a **fifth-order POE-based** method, **published in IEEE-TRO (conditionally
 * Disseminate published academic results
 
 The MATLAB codebase for the DMH method provides a unified function, named *DMH_Method_KI_IK*, that consistently solves both KI and IK problems, following the procedure described in *Algorithm 1* of the paper.
-
-
-
-
-C++ and with some examples also implemented in MATLAB. Qt is recommended to use with the C++ examples as the project organization files are in ".pro" Qt format, Qt's plotting capabilities are used to visualize models, and the event system is used to demonstrate interactive simulation.
+The C++ codebase 
+Qt is recommended to use with the C++ examples as the project organization files are in ".pro" Qt format, Qt's plotting capabilities are used to visualize models, and the event system is used to demonstrate interactive simulation.
 
 
 
