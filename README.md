@@ -6,26 +6,11 @@ It is a **fifth-order POE-based** method, **published in IEEE-TRO (conditionally
 
 > Yuhan Chen, et al., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," *IEEE Transactions on Robotics* (conditionally accepted).
 
-## 算法简介
+## Motivation
 
-本库实现了基于 **[你的算法名称]** 的广义逆运动学求解器，面向串联机械臂的高效与高鲁棒应用场景。该方法在迭代求解策略与误差建模上进行了改进，相较传统一阶方法可更快收敛、失败率更低，适合实时与高可靠性要求的任务。
+* Disseminate published academic results
 
-## 性能与基准
 
-以下为在典型 6-DOF 机械臂、较大初始关节误差条件下的示例基准（请替换为你的数据）：
-
-| 求解器       | 平均求解时间 | 错误率 |
-| ------------ | ------------ | ------ |
-| 你的算法     | XX μs        | X.XX%  |
-| 对比算法 A   | YY μs        | Y.YY%  |
-| 对比算法 B   | ZZ μs        | Z.ZZ%  |
-
-当初值较好（接近真解）时，错误率可趋近于零，求解时间也将显著降低。
-
-更多细节可参考论文与预印本（可选）：`docs/paper_preprint.pdf`。
-
-> 推荐引用：
-> [作者], "[论文标题]," IEEE Transactions on Robotics (TRO), [年份]. doi: [DOI]
 
 ## 本项目功能
 
