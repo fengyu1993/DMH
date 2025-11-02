@@ -2,10 +2,10 @@
 
 **DMH** is a fast and robust kinematics library for serial manipulators. 
 It aims to establish a unified framework for kinematic identification (KI) and inverse kinematics (IK) and to develop an efficient, robust, and accurate solution method for both problems.
-It is based on the novel damped modified Halley method, published in **IEEE Transactions on Robotics (TRO)**, that enhances the identification accuracy for solving KI problems and improves the convergence rate
+It is a fifth-order POE-based method, published in **IEEE Transactions on Robotics (TRO)**, that enhances the identification accuracy for solving KI problems and improves the convergence rate
 and robustness for solving IK problems.
 
-> Yuhan Chen, et al., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," IEEE Transactions on Robotics, Conditionally accepted.
+> Yuhan Chen, et al., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," *IEEE Transactions on Robotics*, Conditionally accepted.
 
 ## 算法简介
 
