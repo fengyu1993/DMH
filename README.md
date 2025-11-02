@@ -5,8 +5,7 @@ It aims to establish a unified framework for kinematic identification (KI) and i
 It is based on the novel damped modified Halley method, published in **IEEE Transactions on Robotics (TRO)**, that enhances the identification accuracy for solving KI problems and improves the convergence rate
 and robustness for solving IK problems.
 
-> 在此处填写你的论文引用信息。
-> 例如：[作者], "[论文标题]," IEEE Transactions on Robotics (TRO), [年份].
+> Yuhan Chen, et al., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," IEEE Transactions on Robotics, Conditionally accepted.
 
 ## 算法简介
 
