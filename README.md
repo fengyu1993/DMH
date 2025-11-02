@@ -1,4 +1,4 @@
-# [你的项目名称]：一个为 C++ 设计的高效、鲁棒的机器人运动学库
+# A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics Library for C++ or Matlab
 
 **[项目名称]** 是一个为串联机械臂设计的高性能 C++ 运动学库。它基于 **[你的算法名称]** 算法，该算法发表于 **IEEE Transactions on Robotics (TRO)**，能够比现有的逆运动学（IK）包更快、更可靠地解决广义逆运动学问题。
 
