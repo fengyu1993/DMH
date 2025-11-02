@@ -1,6 +1,9 @@
-# A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics Library for C++ or Matlab
+# Unified Library for Kinematic Identification and Inverse Kinematics in C++ and Matlab
 
-**[项目名称]** 是一个为串联机械臂设计的高性能 C++ 运动学库。它基于 **[你的算法名称]** 算法，该算法发表于 **IEEE Transactions on Robotics (TRO)**，能够比现有的逆运动学（IK）包更快、更可靠地解决广义逆运动学问题。
+**DMH** is a fast and robust kinematics library for serial manipulators. 
+It aims to establish a unified framework for kinematic identification (KI) and inverse kinematics (IK) and to develop an efficient, robust, and accurate solution method for both problems.
+It is based on the novel damped modified Halley method, published in **IEEE Transactions on Robotics (TRO)**, that enhances the identification accuracy for solving KI problems and improves the convergence rate
+and robustness for solving IK problems.
 
 > 在此处填写你的论文引用信息。
 > 例如：[作者], "[论文标题]," IEEE Transactions on Robotics (TRO), [年份].
