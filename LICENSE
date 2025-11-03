@@ -21,5 +21,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 This project includes the Eigen library (http://eigen.tuxfamily.org/),
-licensed under the Mozilla Public License v2.0.
+which is distributed under the Mozilla Public License v2.0.
+See dependencies/Eigen/COPYING.MPL2 for details.
 
