@@ -1,4 +1,8 @@
-%% Kinematic Identification for HP20D robot without noises
+%% Kinematic Identification for HP20D test without noises
+%% License
+% Copyright (c) 2025 Yuhan Chen (chenyuhan19930920@163.com)
+% Licensed under the MIT License.
+% See LICENSE file in the project root for full license information.
 clc;
 clear;
 close all;
