@@ -18,7 +18,7 @@ Qt is recommended for use with the C++ examples, as the project configuration fi
 
 ## Prerequisites
 
-* Qt ([Qt](https://www.qt.io/download)*)
+* Qt ([https://www.qt.io/download](https://www.qt.io/download))
 
 ## How it works
 
