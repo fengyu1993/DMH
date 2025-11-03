@@ -1,5 +1,5 @@
 function [S, Gamma, delta_q, error] = DTH_Method_KI_IK(S_init, Gamma_init, delta_q_init, q_bar_list, T_d_list, epsilon, tau_max, sigma, flag)
-%% Damped Modified Halley Method for solving Kinematic Identification and Inverse Kinematics 
+%% Damped Traditional Halley Method for solving Kinematic Identification and Inverse Kinematics 
 %% Input
 % S_init: Initialized S represented in Eq.(17).
 % Gamma_init: Initialized exponential coordinates of the end-effector pose relative to the frame {s} when the robot is at its zero position.
@@ -19,6 +19,10 @@ function [S, Gamma, delta_q, error] = DTH_Method_KI_IK(S_init, Gamma_init, delta
 %% Output
 % S, Gamma, delta_q: Result after identification. 
 % error: Iterative process error, Xi^T Xi
+%% License
+% Copyright (c) 2025 Yuhan Chen (chenyuhan19930920@163.com)
+% Licensed under the MIT License.
+% See LICENSE file in the project root for full license information.
 %% Initialization
 [n, m] = size(q_bar_list);
 Phi = SGqToPhi(S_init, Gamma_init, delta_q_init, flag); % Eq.(21)
