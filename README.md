@@ -11,8 +11,8 @@ It is a fifth-order Product-of-Exponential (POE)-based method, **published in IE
 * Illustrated the DMH method (fifth-order convergence) for KI and IK
 * Disseminate published academic results
 
-The C++ codebase compiled with the MSVC 2019 compiler implements the damped modified Halley (DMH), damped traditional Halley (DTH), and damped Newton–Raphson (DNR) methods for solving IK problems.
-Qt is recommended for use with the C++ examples, as the project configuration files are provided in the “.pro” format.
+The C++ codebase compiled with the **MSVC 2019 compiler** implements the damped modified Halley (DMH), damped traditional Halley (DTH), and damped Newton–Raphson (DNR) methods for solving IK problems.
+**Qt** is recommended for use with the C++ examples, as the project configuration files are provided in the “.pro” format.
 The MATLAB codebase for the DMH method provides a unified function, named *DMH_Method_KI_IK*, that consistently solves both KI and IK problems, following the procedure described in *Algorithm 1* of the paper.
 
 **Note**: The InverseKinematics class operates independently of Qt and can be used in standalone C++ applications.
