@@ -20,6 +20,7 @@ Qt is recommended for use with the C++ examples, as the project configuration fi
 
 * Qt (*[https://www.qt.io/download](https://www.qt.io/download)*)
 * MATLAB (*[https://www.mathworks.com/products/matlab.html](https://www.mathworks.com/products/matlab.html)*)
+* Eigen 3.4.0 (*[ http://eigen.tuxfamily.org]( http://eigen.tuxfamily.org)*)
 
 ## How it works
 
