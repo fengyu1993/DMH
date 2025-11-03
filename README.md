@@ -2,7 +2,7 @@
 
 **DMH** is a fast and robust kinematics library for serial manipulators. 
 It aims to establish a unified framework for kinematic identification (KI) and inverse kinematics (IK) and to develop an efficient, robust, and accurate solution method for both problems.
-It is a **fifth-order POE-based** method, **published in IEEE-TRO (conditionally accepted)**, that enhances the identification accuracy for solving KI problems and improves the convergence rate and robustness for solving IK problems.
+It is a fifth-order Product-of-Exponential (POE)-based method, **published in IEEE-TRO (conditionally accepted)**, that enhances the identification accuracy for solving KI problems and improves the convergence rate and robustness for solving IK problems.
 
 > Yuhan Chen, et al., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," *IEEE Transactions on Robotics* (conditionally accepted).
 
@@ -54,35 +54,11 @@ make
 
 本库使用 **Denavit-Hartenberg (DH)** 参数来定义机器人结构。通过提供 DH 参数、关节类型等来定义 `Robot` 和 `IKSolver` 对象。
 
-```cpp
-// 1. 包含头文件
-#include "your_project/Robot.hpp"
-#include "your_project/IKSolver.hpp"
 
-// 2. 定义机器人参数 (DH, 关节类型等)
-auto robot = std::make_shared<your_project::Robot<DOF>>(...);
 
-// 3. 创建逆运动学求解器
-const your_project::IKSolver<DOF> ik_solver(robot);
 
-// 4. 准备目标位姿和初始猜测角
-// ...
 
-// 5. 求解
-ik_solver.solve(target_pose, q_initial_guess, q_solution);
-```
 
-更详细的用法请参考 `src/sample_usage.cpp` 文件。
-
-## 依赖项
-
-- 线性代数库：**Eigen 3.4**（必需）
-
-如果你的系统尚未安装（Ubuntu）：
-
-```bash
-sudo apt install libeigen3-dev
-```
 
 ## 如何引用
 
