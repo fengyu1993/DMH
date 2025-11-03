@@ -26,7 +26,7 @@ A copy of Eigen (version 3.4) is included in the `dependencies/` directory for c
 
 ## License
 
-This project is licensed under the MIT License - see the *[LICENSE](https://github.com/JohnDTill/ContinuumRobotExamples/blob/master/LICENSE)* file for details.
+This project is licensed under the MIT License - see the *[LICENSE]([https://github.com/fengyu1993/DMH/blob/main/LICENSE])* file for details.
 
 ## How it works
 
