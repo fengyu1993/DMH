@@ -14,6 +14,7 @@ It is a **fifth-order POE-based** method, **published in IEEE-TRO (conditionally
 The MATLAB codebase for the DMH method provides a unified function, named *DMH_Method_KI_IK*, that consistently solves both KI and IK problems, following the procedure described in *Algorithm 1* of the paper.
 The C++ codebase implements the DMH, DTH, and DNR methods for solving IK problems.
 Qt is recommended for use with the C++ examples, as the project configuration files are provided in the “.pro” format.
+**Note**: The InverseKinematics class operates independently of Qt and can be used in standalone C++ applications.
 
 
 
