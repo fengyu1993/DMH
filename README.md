@@ -41,19 +41,3 @@ If you use our work, please reference our publication below. Recommended citatio
 
 This project is licensed under the MIT License - see the *[LICENSE](https://github.com/fengyu1993/DMH/blob/main/LICENSE)* file for details.
 
-
-
-
-
-
-
-## 如何引用
-
-如果你在研究或产品中使用了本项目，请引用我们的论文（发表于 IEEE Transactions on Robotics, TRO）：
-
-[1] [作者], [论文标题], IEEE Transactions on Robotics (TRO), [年份]. doi: [DOI]
-
-## 许可
-
-本项目在 **AGPL-3.0** 许可下发布。若你的商业场景无法开源衍生作品，可邮件联系获取商业授权：`your.email@domain.com`。
-
