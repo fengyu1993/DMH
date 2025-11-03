@@ -16,6 +16,10 @@ The C++ codebase implements the DMH, DTH, and DNR methods for solving IK problem
 Qt is recommended for use with the C++ examples, as the project configuration files are provided in the “.pro” format.
 **Note**: The InverseKinematics class operates independently of Qt and can be used in standalone C++ applications.
 
+## How it works
+
+本项目基于已发表于 TRO 的算法实现，以 DH 建模为基础，利用数值迭代高效求解 IK。实现细节与理论推导请参考论文与 `docs/` 中的材料。
+
 ## Prerequisites
 
 * Qt (*[https://www.qt.io/download](https://www.qt.io/download)*)
@@ -24,35 +28,18 @@ Qt is recommended for use with the C++ examples, as the project configuration fi
 
 A copy of Eigen (version 3.4) is included in the `dependencies/` directory for convenience.
 
+## Contributing
+
+Feel free to submit pull requests and use the issue tracker to start a discussion about any bugs you encounter. Please provide a description of your compiler and operating system for any software related bugs.
+
+## Citations
+
+If you use our work, please reference our publication below. Recommended citation:
+> [1] XXXXXXXX. doi: XXXXXXX
+
 ## License
 
 This project is licensed under the MIT License - see the *[LICENSE](https://github.com/fengyu1993/DMH/blob/main/LICENSE)* file for details.
-
-## How it works
-
-本项目基于已发表于 TRO 的算法实现，以 DH 建模为基础，利用数值迭代高效求解 IK。实现细节与理论推导请参考论文与 `docs/` 中的材料。
-
-## 如何构建
-
-本项目使用 CMake 进行构建。为了获得最佳性能，请使用 `Release` 模式进行构建。
-
-```bash
-mkdir build
-cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make
-```
-
-## 代码说明与用法
-
-- 头文件与核心接口：
-	- `your_project/Robot.hpp`：机器人结构、正向/雅可比计算；
-	- `your_project/IKSolver.hpp`：逆运动学求解接口。
-- 示例：`src/sample_usage.cpp` 展示最小化用法（创建 Robot 与 IKSolver，给定目标位姿与初值，得到解）。
-
-### 基本用法
-
-本库使用 **Denavit-Hartenberg (DH)** 参数来定义机器人结构。通过提供 DH 参数、关节类型等来定义 `Robot` 和 `IKSolver` 对象。
 
 
 
