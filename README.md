@@ -29,6 +29,9 @@ Our key innovation is to utilize both the Jacobian and Hessian matrices to predi
 It can be observed that the proposed DMH method only adds one evaluation of the error at another point iterated by the DTH methods. Still, its order of convergence will be proven to increase from three to five in the paper.
 This is visualized in the image below.
 
+<img width="4002" height="670" alt="图片1" src="https://github.com/user-attachments/assets/fc7662c3-02d4-40cf-85ed-362a5665cd22" />
+
+<img width="4002" height="662" alt="图片2" src="https://github.com/user-attachments/assets/dff87c80-c8d2-4794-be1e-191d9d8a9301" />
 
 
 
