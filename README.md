@@ -42,7 +42,6 @@ This is visualized in the image below.
 </div>
 
 Fig. Graphical illustration of the NR, TH, and MH methods on one-dimensional functions. 
-
 (a) $\Xi(\Phi) = \arctan(\Phi)$. (b) $\Xi(\Phi) = \sin(\Phi) + 0.5\cos(3\Phi) - 0.1\Phi$.
 The MH method achieves the fewest iterations (top), while the NR and TH methods diverge, with only the MH method converging (bottom). In the latter case, the $\Xi'(\Phi_{\mathrm{TH}})$ estimated by $\Xi''(\Phi_0)$ has the opposite sign of the true $\Xi'(\Phi_{\mathrm{TH}})$, which facilitates convergence.
 
