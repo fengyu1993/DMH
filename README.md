@@ -31,7 +31,9 @@ This is visualized in the image below.
 
 <img width="4002" height="670" alt="图片1" src="https://github.com/user-attachments/assets/fc7662c3-02d4-40cf-85ed-362a5665cd22" />
 
-<center>(a)</center>
+<div align="center">
+(a)
+</div>
 
 <img width="4002" height="662" alt="图片2" src="https://github.com/user-attachments/assets/dff87c80-c8d2-4794-be1e-191d9d8a9301" />
 
