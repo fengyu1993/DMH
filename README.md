@@ -19,7 +19,7 @@ The MATLAB codebase for the DMH method provides a unified function, named *DMH_M
 
 ## Innovation 
 
-The DMH repository is based on the DMH algorithm, the full details of which can be found in the paper *[docs/YuhanChen2025_DMH_preprint.pdf](https://github.com/fengyu1993/DMH/blob/main/LICENSE).
+The DMH repository is based on the DMH algorithm, the full details of which can be found in the paper *[docs/YuhanChen2025_DMH_preprint.pdf](https://github.com/fengyu1993/DMH/blob/main/LICENSE)*.
 
 The key innovation of this work lies in incorporating higher-order derivatives into the iterative solver, where the use of the Hessian matrix extends the convergence rate from third order to fifth order.
 Most existing KI and IK solvers employ the geometric Jacobian of the kinematic chain within a damped Newton framework, where the robot's kinematic function is linearized at each iteration, and this local linear approximation is used to project the estimate toward the desired solution.
@@ -41,7 +41,9 @@ This is visualized in the image below.
 (b) 
 </div>
 
-Fig. Graphical illustration of the NR, TH, and MH methods on one-dimensional functions. (a) $\Xi(\Phi) = \arctan(\Phi)$. (b) $\Xi(\Phi) = \sin(\Phi) + 0.5\cos(3\Phi) - 0.1\Phi$.
+Fig. Graphical illustration of the NR, TH, and MH methods on one-dimensional functions. 
+
+(a) $\Xi(\Phi) = \arctan(\Phi)$. (b) $\Xi(\Phi) = \sin(\Phi) + 0.5\cos(3\Phi) - 0.1\Phi$.
 The MH method achieves the fewest iterations (top), while the NR and TH methods diverge, with only the MH method converging (bottom). In the latter case, the $\Xi'(\Phi_{\mathrm{TH}})$ estimated by $\Xi''(\Phi_0)$ has the opposite sign of the true $\Xi'(\Phi_{\mathrm{TH}})$, which facilitates convergence.
 
 ## Prerequisites
