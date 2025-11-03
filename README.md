@@ -16,8 +16,9 @@ The C++ codebase implements the DMH, DTH, and DNR methods for solving IK problem
 Qt is recommended for use with the C++ examples, as the project configuration files are provided in the “.pro” format.
 **Note**: The InverseKinematics class operates independently of Qt and can be used in standalone C++ applications.
 
+## Prerequisites
 
-
+* Qt (*[Markdown Guide](https://www.markdownguide.org)*)
 
 ## How it works
 
