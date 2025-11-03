@@ -24,6 +24,9 @@ Qt is recommended for use with the C++ examples, as the project configuration fi
 
 A copy of Eigen (version 3.4) is included in the `dependencies/` directory for convenience.
 
+## License
+
+This project is licensed under the MIT License - see the *[LICENSE](https://github.com/JohnDTill/ContinuumRobotExamples/blob/master/LICENSE)* file for details.
 
 ## How it works
 
@@ -91,6 +94,3 @@ sudo apt install libeigen3-dev
 
 本项目在 **AGPL-3.0** 许可下发布。若你的商业场景无法开源衍生作品，可邮件联系获取商业授权：`your.email@domain.com`。
 
-## 商业许可
-
-本项目默认遵循 AGPL-3.0。若你的应用不便开源衍生作品（例如闭源分发或仅以服务形式提供），欢迎联系洽谈商业授权：`your.email@domain.com`。
