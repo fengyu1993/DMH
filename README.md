@@ -23,7 +23,13 @@ The DMH repository is based on the DMH algorithm, the full details of which can 
 
 The key innovation of this work lies in incorporating higher-order derivatives into the iterative solver, where the use of the Hessian matrix extends the convergence rate from third order to fifth order.
 Most existing KI and IK solvers employ the geometric Jacobian of the kinematic chain within a damped Newton framework, where the robot's kinematic function is linearized at each iteration, and this local linear approximation is used to project the estimate toward the desired solution.
-The *[DQuIK](https://github.com/steffanlloyd/quik)* method introduces a third-order iterative scheme that leverages not only the Jacobian but also the Hessian matrix.
+The *[DQuIK](https://github.com/steffanlloyd/quik)* (DTH) method introduced a third-order iterative scheme that leverages not only the Jacobian but also the Hessian matrix.
+The novelty of the DQuIK method lies in its use of first- and second-order derivatives to approximate the robot’s kinematic function with a quadratic model, which is then used to project toward the solution.
+Our key innovation is to utilize both the Jacobian and Hessian matrices to predict the next-substep derivative based on the DTH update, after which a single DNR step is performed to reach the next result.
+It can be observed that the proposed DMH method only adds one evaluation of the error at another point iterated by the DTH methods. Still, its order of convergence will be proven to increase from three to five in the paper.
+This is visualized in the image below.
+
+
 
 
 ## Prerequisites
