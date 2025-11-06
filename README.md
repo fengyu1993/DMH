@@ -4,7 +4,7 @@
 It aims to establish a unified framework for kinematic identification (KI) and inverse kinematics (IK) and to develop an efficient, robust, and accurate solution method for both problems.
 It is a fifth-order Product-of-Exponential (POE)-based method, **published in IEEE-TRO (conditionally accepted)**, that enhances the identification accuracy for solving KI problems and improves the convergence rate and robustness for solving IK problems.
 
-> Yuhan Chen, et al., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," *IEEE Transactions on Robotics* (conditionally accepted).
+> Yuhan Chen, *et al*., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," *IEEE Transactions on Robotics* (conditionally accepted).
 
 ## Motivation
 
@@ -19,7 +19,7 @@ The MATLAB codebase for the DMH method provides a unified function, named *DMH_M
 
 ## Innovation 
 
-The DMH repository is based on the DMH algorithm, the full details of which can be found in the paper *[docs/YuhanChen2025_DMH_preprint.pdf](https://github.com/fengyu1993/DMH/blob/main/LICENSE)*.
+The DMH repository is based on the DMH algorithm, the full details of which can be found in the paper *[docs/YuhanChen2025_DMH_preprint.pdf](https://github.com/fengyu1993/DMH/blob/main/docs/YuhanChen2025_DMH_preprint.pdf)*.
 
 The key innovation of this work lies in incorporating higher-order derivatives into the iterative solver, where the use of the Hessian matrix extends the convergence rate from third order to fifth order.
 Most existing KI and IK solvers employ the geometric Jacobian of the kinematic chain within a damped Newton framework, where the robot's kinematic function is linearized at each iteration, and this local linear approximation is used to project the estimate toward the desired solution.
