@@ -60,7 +60,7 @@ Feel free to submit pull requests and use the issue tracker to start a discussio
 ## Citations
 
 If you use our work, please reference our publication below. Recommended citation:
-> [1] XXXXXXXX. doi: XXXXXXX
+> [1] XXXXXXXX. doi: 10.1109/TRO.2026.3653881
 
 ## License
 
