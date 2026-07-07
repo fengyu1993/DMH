@@ -4,7 +4,7 @@
 It aims to establish a unified framework for kinematic identification (KI) and inverse kinematics (IK) and to develop an efficient, robust, and accurate solution method for both problems.
 It is a fifth-order Product-of-Exponential (POE)-based method, **published in IEEE-TRO (accepted)**, that enhances the identification accuracy for solving KI problems and improves the convergence rate and robustness for solving IK problems.
 
-> Yuhan Chen, *et al*., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," *IEEE Transactions on Robotics* (accepted).
+> Yuhan Chen et al., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," in IEEE Transactions on Robotics, vol. 42, pp. 1068-1087, 2026, doi: 10.1109/TRO.2026.3653881.
 
 ## Motivation
 
@@ -60,7 +60,7 @@ Feel free to submit pull requests and use the issue tracker to start a discussio
 ## Citations
 
 If you use our work, please reference our publication below. Recommended citation:
-> [1] XXXXXXXX. doi: 10.1109/TRO.2026.3653881
+> Yuhan Chen et al., "A Fifth-Order POE-Based Method for Kinematic Identification and Inverse Kinematics of Serial Robots," in IEEE Transactions on Robotics, vol. 42, pp. 1068-1087, 2026, doi: 10.1109/TRO.2026.3653881.
 
 ## License
 
